@@ -1,0 +1,24 @@
+<plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+            <configuration>
+              <archive>
+               <manifest>
+                 <mainClass>pr3.org.aplicacion.Principal</mainClass>
+               </manifest>
+              </archive>
+              <descriptorRefs>
+               <descriptorRef>jar-with-dependencies</descriptorRef>
+              </descriptorRefs>
+            </configuration>
+          </plugin>
+
+mvn archetype:generate -DgroupId=pr1.org -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+ejecutar:
+	mvn compile assembly:single
+
+javadoc:ejecutar
+	mvn javadoc:javadoc
+
+run:ejecutar
+	java -jar target/PracticaInicial-1.0-SNAPSHOT-jar-with-dependencies.jar
