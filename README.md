@@ -19,10 +19,13 @@
 
 ### Para ejecutar:
 
--Usar comandos de maven
--También hay un makefile para que sea más sencillo
--Para compilar y ejecutar usar make run
--Para crear el javadoc usar make javadoc
+-Usar comandos de maven.
+
+-También hay un makefile para que sea más sencillo.
+
+-Para compilar y ejecutar usar make run.
+
+-Para crear el javadoc usar make javadoc.
 
 ## MAKEFILE:
 
