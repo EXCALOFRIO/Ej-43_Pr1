@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"pr1.org.dominio","l":"Localidad"},{"p":"pr1.org.dominio","l":"Municipio"},{"p":"pr1.org.aplicacion","l":"Principal"},{"p":"pr1.org.dominio","l":"Provincia"}];updateSearchResults();

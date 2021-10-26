@@ -4,7 +4,19 @@ import pr1.org.dominio.Localidad;
 import pr1.org.dominio.Municipio;
 import pr1.org.dominio.Provincia;
 
+/******************************************************************
+ * Clase Principal inicializa los objetos de las diferentes clases y da valor a
+ * sus diferentes atributos y es la encargada de llamar a los metodos.
+ * 
+ * @author Alejandro Ramirez Larena
+ * @version 3.2, 26/10/2021
+ ******************************************************************/
 public class Principal {
+    /******************************************************************
+     * Método main con el que se ejecuta el programa
+     * 
+     * @param args Array de Strings
+     ******************************************************************/
     public static void main(String[] args) {
 
         Localidad sanchinarro = new Localidad();
